@@ -1,0 +1,4 @@
+# ignor Mac Specific Folder
+.DS_Store
+# don't sync config dir
+config/
