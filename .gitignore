@@ -2,3 +2,6 @@
 .DS_Store
 # don't sync config dir
 config/
+
+#don't sync git deploy files
+deploy*.*
