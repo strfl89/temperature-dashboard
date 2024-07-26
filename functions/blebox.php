@@ -1,3 +1,4 @@
+<?php
 function get_blebox_state($ip)
 {
 	$ch = curl_init();
@@ -10,3 +11,4 @@ function get_blebox_state($ip)
 	return json_decode($response, true);
 
 }
+?>
