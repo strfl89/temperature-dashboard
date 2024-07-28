@@ -57,7 +57,7 @@ foreach ($sensors as $sensor) {
 
 echo "</div>";
 
-echo "<footer";
+echo "<footer>";
 echo "<p><i>Diese Seite aktualisiert sich alle 5 Minuten automatisch<br>Letzte Aktualisierung: ".date("d.m.Y H:i")." Uhr</i></p>";
 $filename = 'VERSION';
 if (file_exists($filename)) {
