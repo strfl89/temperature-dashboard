@@ -61,7 +61,7 @@ echo "<footer>";
 echo "<p><i>Diese Seite aktualisiert sich alle 5 Minuten automatisch<br>Letzte Aktualisierung: ".date("d.m.Y H:i")." Uhr</i></p>";
 $filename = 'VERSION';
 if (file_exists($filename)) {
-    echo "Temperatur Dashboard Version: 0.1 (Build ". file_get_contents($filename) . " " . date ("d.m.Y H:i", filemtime($filename)) . " Uhr)";
+    echo "Temperatur Dashboard Version: 0.1.". file_get_contents($filename) . " (" . date ("d.m.Y H:i", filemtime($filename)) . " Uhr)";
 }
 echo "</footer>";
 
